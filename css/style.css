@@ -146,14 +146,29 @@ html::-webkit-scrollbar-thumb {
 
 
 
+/* ======== Bottom Navbar/Barra de navegação inferior ======= */
+.bottom-navbar {
+    text-align: center;
+    background: var(--green);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
 
 
+.bottom-navbar a {
+    font-size: 2.5rem;
+    padding: 3rem;
+    color: #fff;
+}
 
 
-
-
-
-
+.bottom-navbar a:hover {
+    background: var(--dark-color);
+}
 
 
 
@@ -209,6 +224,10 @@ html::-webkit-scrollbar-thumb {
 
     .header .header-2 {
         display: none;
+    }
+
+    .bottom-navbar {
+        display: block;
     }
 
     #search-btn {

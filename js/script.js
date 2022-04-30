@@ -1,3 +1,4 @@
+/* Search-Btn */
 searchForm = document.querySelector('.search-form');
 
 document.querySelector('#search-btn').onclick = () => {
@@ -10,6 +11,8 @@ document.querySelector('#search-btn').onclick = () => {
 
 /*  */
 window.onscroll = () => {
+
+    searchForm.classList.remove('active');
 
     if(window.scroll > 80){
         document.querySelector('.header .header-2').classList.add('active');
