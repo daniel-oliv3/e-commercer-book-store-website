@@ -599,22 +599,49 @@ section {
 
 
 
+/* ======= Deals Section/Seção de ofertas ======= */
+.deal {
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
 
 
+.deal .content {
+    flex: 1 1 42rem;
+}
 
 
+.deal .image {
+    flex: 1 1 42rem;
+}
 
 
+.deal .image img {
+    width: 100%;
+}
 
 
+.deal .content h3 {
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
 
 
+.deal .content h1 {
+    color: var(--black);
+    font-size: 4rem;
+}
 
 
-
-
-
-
+.deal .content p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
 
 
 
