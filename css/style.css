@@ -348,18 +348,37 @@ section {
 
 
 /* ======= Icons Section/Seção de Icones ======= */
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
 
 
+.icons-container .icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+}
+
+.icons-container .icons i {
+    font-size: 3.5rem;
+    color: var(--green);
+}
 
 
+.icons-container .icons h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
 
 
-
-
-
-
-
-
+.icons-container .icons p {
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
 
 
 
