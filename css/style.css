@@ -222,6 +222,14 @@ html::-webkit-scrollbar-thumb {
 
 @media (max-width: 768px){
 
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        padding-bottom: 6rem;
+    }
+
     .header .header-2 {
         display: none;
     }
