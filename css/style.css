@@ -43,6 +43,10 @@ html::-webkit-scrollbar-thumb {
     background: var(--black);
 }
 
+section {
+    padding: 5rem 9%;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -289,7 +293,11 @@ html::-webkit-scrollbar-thumb {
 
 
 /* ======== Home Section/Seção inicial ======= */
-
+.home {
+    background: url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 
 
@@ -311,6 +319,10 @@ html::-webkit-scrollbar-thumb {
 
     .header .header-1 {
         padding: 2rem;
+    }
+
+    section {
+        padding: 3rem 2rem;
     }
 
 }
