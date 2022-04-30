@@ -108,19 +108,41 @@ html::-webkit-scrollbar-thumb {
     color: var(--green);
 }
 
+#search-btn {
+    display: none;
+}
 
 
+.header .header-2 {
+    background: var(--green);
+}
 
 
+.header .header-2 .navbar {
+    text-align: center;
+}
 
 
+.header .header-2 .navbar a {
+    color: #fff;
+    display: inline-block;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+}
 
 
+.header .header-2 .navbar a:hover {
+    background: var(--dark-color);
+}
 
 
-
-
-
+.header .header-2.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
 
 
 
