@@ -445,7 +445,7 @@ section {
     right: 0;
     background: #fff;
     z-index: 1;
-    transform: translate(-100%);
+    transform: translate(-105%);
 }
 
 
@@ -490,6 +490,51 @@ section {
     color: var(--light-color);
     text-decoration: line-through;
 }
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    border: var(--border-hover);
+    height: 4rem;
+    width: 4rem;
+    color: var(--black);
+    background: #fff;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 2rem;
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background: var(--black);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
