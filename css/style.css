@@ -196,10 +196,14 @@ html::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, .9);
     position: fixed;
     top: 0;
-    left: 0;
+    right: -105%;
     z-index: 10000;
     height: 100%;
     width: 100%;
+}
+
+.login-form-container.active {
+    right: 0;
 }
 
 .login-form-container form {
@@ -274,7 +278,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 
-
+.login-form-container #close-login-btn {
+    position: absolute;
+    top: 1.5rem;
+    right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+}
 
 
 
