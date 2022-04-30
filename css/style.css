@@ -411,7 +411,6 @@ section {
 
 /* ======= Featured Section/Seção de Destaque ======= */
 .featured .featured-slider .box {
-    width: 25rem;
     margin: 2rem 0;
     position: relative;
     overflow: hidden;
@@ -479,9 +478,18 @@ section {
     color: var(--black);
 }
 
+.featured .featured-slider .box .content .price {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-top: 1rem;
+}
 
 
-
+.featured .featured-slider .box .content .price span {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+}
 
 
 
