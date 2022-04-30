@@ -563,10 +563,70 @@ section {
     margin: 1rem 0;
 }
 
+.arrivals .arrivals-slider .box:hover {
+    border: var(--border-hover);
+} 
 
 .arrivals .arrivals-slider .box .image img {
     height: 15rem;
 }
+
+
+.arrivals .arrivals-slider .box .content h3 {
+    font-size: 2rem;
+    color: var(--black);
+} 
+
+
+.arrivals .arrivals-slider .box .content .price {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+} 
+
+
+.arrivals .arrivals-slider .box .content .price span {
+    font-size: 1.5rem;
+    color: var(--light-color);
+    text-decoration: line-through;
+} 
+
+
+.arrivals .arrivals-slider .box .content .stars i {
+    font-size: 1.5rem;
+    color: var(--green);
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
