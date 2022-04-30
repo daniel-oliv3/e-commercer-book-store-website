@@ -39,3 +39,20 @@ window.onload = () => {
         document.querySelector('.header .header-2').classList.remove('active');
     }
 }
+
+
+/*Slider Swiper*/
+var swiper = new Swiper('.books-slider', {
+    loop: true,
+    breakpointts: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 4,
+        },
+    },
+});
