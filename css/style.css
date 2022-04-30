@@ -553,13 +553,20 @@ section {
 
 
 
+/* ======= Arrivals Section/Seção de Chegadas ======= */
+.arrivals .arrivals-slider .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: var(--border);
+    margin: 1rem 0;
+}
 
 
-
-
-
-
-
+.arrivals .arrivals-slider .box .image img {
+    height: 15rem;
+}
 
 
 
