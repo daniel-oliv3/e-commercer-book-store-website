@@ -638,6 +638,7 @@ section {
 
 
 .deal .content p {
+    padding: 1rem 0;
     color: var(--light-color);
     font-size: 1.4rem;
     line-height: 2;
